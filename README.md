@@ -18,7 +18,7 @@ So, we should not take more time and start the work. Let's go!
 
 ## Prerequisites
 
-1. Visual Code Editor [(VS code)](https://code.visualstudio.com/) (recommanded)
+1. Visual Code Editor [(VS code)](https://code.visualstudio.com/) (recommended)
 2. Node.js and Node Package Manager [(NPM)](https://nodejs.org/en/)
 3. [Truffle](https://trufflesuite.com/)
 4. Solidity Knowledge
@@ -72,7 +72,7 @@ truffle create contract ContractName //set whatever the contract name you like.
 
 you will see the newly created file with the name you write above inside contracts folder and when you will open it, it will look something like this.
 
-```javascript
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
@@ -85,7 +85,7 @@ Truffle created the smart contract with the name you write above along with the 
 
 Now change this file code with the below code.
 
-```javascript
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
@@ -144,7 +144,7 @@ module.exports = function (deployer) {
 
 3. Export a function that will deploy the smart contract.
 
-Give deployer as paramter and using the method of that parameter deploy the smart contract. This object act as an interface between developer and truffle.
+Give deployer as parameter and using the method of that parameter deploy the smart contract. This object acts as an interface between the developer and truffle.
 
 ## Deploy to Local Blockchain
 
